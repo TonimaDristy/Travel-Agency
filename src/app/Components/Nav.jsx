@@ -37,7 +37,13 @@ export default function Nav() {
 
     return (
         <nav className={`navbar fixed top-0 w-full z-50 transition-all duration-500 ease-in-out
-       `}>
+        ${isScrolled ? "shadow-md bg-white py-3 scrolled" : "py-0"}
+        `}>
+
+            {/* Nav Top*/}
+
+            <div className=""></div>
+
         </nav>
     )
 }
