@@ -40,10 +40,15 @@ export default function Nav() {
         ${isScrolled ? "shadow-md bg-white py-3 scrolled" : "py-0"}
         `}>
 
-            {/* Nav Top*/}
+            {/* Nav Top(hidden on scroll with transition)*/}
 
-            <div className=""></div>
+            <div className={`nav-top w-full flex justify-between items-center gap-3
+            px-[2%] sm:px-[8%] lg:px-[12%] overflow-hidden transition-all duration-500 ease-in-out
+            
 
-        </nav>
+            
+            `}></div>
+
+        </nav >
     )
 }
