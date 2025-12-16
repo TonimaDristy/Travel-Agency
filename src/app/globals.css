@@ -10,3 +10,7 @@
     font-family: var(--font-sora);
   }
 }
+
+:root {
+  --heading-color: #193555 --text-color:#697e8a --black:#000 --black:#fff --btn-color:#193555
+}
