@@ -9,7 +9,11 @@ import {
     faTimes,
 
 
-} from '@fortawesome/free-brands-svg-icons'
+} from '@fortawesome/free-brands-svg-icons';
+
+
+import { faFacebook, faFlicker } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 
 
