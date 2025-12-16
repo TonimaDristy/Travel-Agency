@@ -1,5 +1,11 @@
 import { Unbounded, Sora } from "next/font/google";
 import "./globals.css";
+import "@fortawesome/fontawesome-svg-core/style.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddcss = false;
+
+import 'remixicon/fonts/remixicon.css'
+
 
 const Unbounded = Unbounded({
   variable: "--font-unbounded",
@@ -20,9 +26,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${sore.variable} ${unbounded.variable} antialiased`}
       >
         {children}
       </body>
