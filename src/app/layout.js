@@ -1,7 +1,7 @@
-import { Unboundeded, Sora } from "next/font/google";
+import { Unbounded, Sora } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
+const Unbounded = Unbounded({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
