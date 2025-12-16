@@ -30,11 +30,14 @@ export default function Nav() {
             setIsScrolled(window.scrollY > 80);
         };
 
-
-    })
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
 
     return (
-        <div>Nav</div>
+        <nav className={`navbar fixed top-0 w-full z-50 transition-all duration-500 ease-in-out
+       `}>
+        </nav>
     )
 }
