@@ -51,8 +51,8 @@ export default function Nav() {
 
             
             `}>
-                <ul>
-                    <li>
+                <ul className="hidden lg:flex items-center gap-3 text-[#727272]">
+                    <li className="text-Sm">
                         <FontAwesomeIcon icon={faPhone} className='pr-1 text-[#727272]' />
                         <span>+91 20 9809 2342</span>
                     </li>
