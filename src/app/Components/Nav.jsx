@@ -1,57 +1,44 @@
 "use client";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope, faUser, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faFlickr, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
 
-
-
-
-
 export default function Nav() {
-    const [isOpen, setIsOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
 
-
     useEffect(() => {
-        const handleScroll = () => {
-            setIsScrolled(window.scrollY > 80);
-        };
-
+        const handleScroll = () => setIsScrolled(window.scrollY > 80);
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-
     return (
-        <nav className={`navbar fixed top-0 w-full z-50 transition-all duration-500 ease-in-out
-        ${isScrolled ? "shadow-md bg-white py-3 scrolled" : "py-0"}
-        `}>
-
-            {/* Nav Top(hidden on scroll with transition)*/}
-
-            <div className="nav-top w-full flex justify-between items-center px-[2%] sm:px-[8%] lg:px-[12%] py-3">
-                {/* Left side: phone + email */}
-                <ul className="hidden lg:flex items-center gap-6">
-                    <li className="flex items-center gap-2 text-sm text-[#727272]">
+        <nav
+            className={`fixed top-0 w-full z-50 transition-all duration-500 ease-in-out ${isScrolled ? "shadow-md bg-white py-3" : "py-0"
+                }`}
+        >
+            <div className="flex justify-between items-center px-6 sm:px-12 py-3 relative">
+                {/* Center: Phone + Email */}
+                <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-6">
+                    <span className="flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300">
                         <FontAwesomeIcon icon={faPhone} />
-                        <span>+91 20 9809 2342</span>
-                    </li>
-                    <li className="flex items-center gap-2 text-sm text-[#091fc2]">
+                        +91 20 9809 2342
+                    </span>
+                    <span className="flex items-center gap-2 text-sm text-blue-800 dark:text-blue-400">
                         <FontAwesomeIcon icon={faEnvelope} />
-                        <span>Booking@Trip-Planner.com</span>
-                    </li>
-                </ul>
+                        Booking@Trip-Planner.com
+                    </span>
+                </div>
 
-                {/* Right side: social icons */}
-                <ul className="flex items-center gap-3">
-                    <li><FontAwesomeIcon icon={faFacebook} className="text-[#8192a0]" /></li>
-                    <li><FontAwesomeIcon icon={faFlickr} className="text-[#8192a0]" /></li>
-                    <li><FontAwesomeIcon icon={faXTwitter} className="text-[#8192a0]" /></li>
-                </ul>
+                {/* Right: Social Icons */}
+                <div className="flex items-center gap-4 ml-auto">
+                    <FontAwesomeIcon icon={faFacebook} className="text-[#8192a0] cursor-pointer" />
+                    <FontAwesomeIcon icon={faFlickr} className="text-[#8192a0] cursor-pointer" />
+                    <FontAwesomeIcon icon={faXTwitter} className="text-[#8192a0] cursor-pointer" />
+                </div>
             </div>
-
-        </nav >
-    )
+        </nav>
+    );
 }
