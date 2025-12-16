@@ -4,6 +4,8 @@ import "./globals.css";
 // import "@fortawesome/fontawesome-svg-core/style.css";
 // import { config } from "@fortawesome/fontawesome-svg-core";
 // config.autoAddCss = false;
+import Nav from "./Components/Nav";
+
 
 import "remixicon/fonts/remixicon.css";
 
@@ -28,6 +30,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${sora.variable} ${unbounded.variable} antialiased`}>
+
+
+
+        <Nav />
         {children}
       </body>
     </html>
