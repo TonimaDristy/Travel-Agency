@@ -44,10 +44,19 @@ export default function Nav() {
 
             <div className={`nav-top w-full flex justify-between items-center gap-3
             px-[2%] sm:px-[8%] lg:px-[12%] overflow-hidden transition-all duration-500 ease-in-out
-            
+            ${isScrolled ? "max-h-0 opacity-0 py-0" : " amx-h- [200px] opacity-100 py-3"}
 
             
-            `}></div>
+            `}>
+                <ul>
+                    <li>
+                        <FontAwesomeIcon icon={faPhone} className='pr-1 text-[#727272]' />
+                    </li>
+                </ul>
+
+
+
+            </div>
 
         </nav >
     )
