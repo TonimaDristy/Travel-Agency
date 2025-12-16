@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Unboundeded, Sora } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
