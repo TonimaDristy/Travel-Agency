@@ -1,22 +1,8 @@
 "use client";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import {
-    Faphone,
-    faEnvelope,
-    faUser,
-    faBars,
-    faTimes,
-
-
-} from '@fortawesome/free-brands-svg-icons';
-
-
-import { faFacebook, faFlicker } from '@fortawesome/free-brands-svg-icons';
-//import { faTwitter } from '@fortawesome/free-brands-svg-icons/faXTwitter';
-import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-
+import { faPhone, faEnvelope, faUser, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook, faFlickr, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
 
 
@@ -56,6 +42,13 @@ export default function Nav() {
                         <FontAwesomeIcon icon={faPhone} className='pr-1 text-[#727272]' />
                         <span>+91 20 9809 2342</span>
                     </li>
+
+                    <li className="text-Sm">
+                        <FontAwesomeIcon icon={faEnvelope} className='pr-1 text-[#c20909]' />
+                        <span>Booking@Trip-Planner.com</span>
+                    </li>
+
+
                 </ul>
 
 
