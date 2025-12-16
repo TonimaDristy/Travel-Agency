@@ -2,7 +2,7 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope, faUser, faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faFlickr, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faFlickr, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
 
 
@@ -31,28 +31,25 @@ export default function Nav() {
 
             {/* Nav Top(hidden on scroll with transition)*/}
 
-            <div className={`nav-top w-full flex justify-between items-center gap-3
-            px-[2%] sm:px-[8%] lg:px-[12%] overflow-hidden transition-all duration-500 ease-in-out
-            ${isScrolled ? "max-h-0 opacity-0 py-0" : " amx-h- [200px] opacity-100 py-3"}
-
-            
-            `}>
-                <ul className="hidden lg:flex items-center gap-3 text-[#727272]">
-                    <li className="text-Sm">
-                        <FontAwesomeIcon icon={faPhone} className='pr-1 text-[#727272]' />
+            <div className="nav-top w-full flex justify-between items-center px-[2%] sm:px-[8%] lg:px-[12%] py-3">
+                {/* Left side: phone + email */}
+                <ul className="hidden lg:flex items-center gap-6">
+                    <li className="flex items-center gap-2 text-sm text-[#727272]">
+                        <FontAwesomeIcon icon={faPhone} />
                         <span>+91 20 9809 2342</span>
                     </li>
-
-                    <li className="text-Sm">
-                        <FontAwesomeIcon icon={faEnvelope} className='pr-1 text-[#c20909]' />
+                    <li className="flex items-center gap-2 text-sm text-[#091fc2]">
+                        <FontAwesomeIcon icon={faEnvelope} />
                         <span>Booking@Trip-Planner.com</span>
                     </li>
-
-
                 </ul>
 
-
-
+                {/* Right side: social icons */}
+                <ul className="flex items-center gap-3">
+                    <li><FontAwesomeIcon icon={faFacebook} className="text-[#8192a0]" /></li>
+                    <li><FontAwesomeIcon icon={faFlickr} className="text-[#8192a0]" /></li>
+                    <li><FontAwesomeIcon icon={faXTwitter} className="text-[#8192a0]" /></li>
+                </ul>
             </div>
 
         </nav >
