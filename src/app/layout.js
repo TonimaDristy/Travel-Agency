@@ -2,13 +2,15 @@ import { Unbounded, Sora } from "next/font/google";
 import "./globals.css";
 
 const Unbounded = Unbounded({
-  variable: "--font-geist-sans",
+  variable: "--font-unbounded",
   subsets: ["latin"],
+  weigth: ["400", "500", "600", "700"]
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const Sora = Sora({
+  variable: "--font-sora",
   subsets: ["latin"],
+  weigth: ["400", "500", "600", "700"]
 });
 
 export const metadata = {
