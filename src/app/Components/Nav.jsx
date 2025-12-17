@@ -72,10 +72,13 @@ export default function Nav() {
                     <li><Link href='/' className="active font-[500] hover:text-black transition-colors duration-500">Home</Link></li>
                     <li><Link href='/About' className="active font-[500] text-[#697e8a] hover:text-black transition-colors duration-500">About</Link></li>
                     <li><Link href='/Tour' className="active font-[500] text-[#697e8a] hover:text-black transition-colors duration-500">Tour</Link></li>
+                    <div className="logo text-3xl uppercase font-semibold">
+                        <Link href="/" className="unbounded-font">Trip<span className="unbounded-font">Planner</span></Link>
+                    </div>
                 </ul>
 
 
-            </div>
+            </div >
         </nav >
     );
 }
