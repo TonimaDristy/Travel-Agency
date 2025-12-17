@@ -55,7 +55,8 @@
 /*Hero*/
 .hero {
   height: 100vh;
-  background: url(../assest/hero-image.jpg);
+  background: url('/images/hero-image.jpg');
+
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
