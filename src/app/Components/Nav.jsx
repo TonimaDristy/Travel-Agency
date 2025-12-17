@@ -38,6 +38,15 @@ export default function Nav() {
                     <FontAwesomeIcon icon={faFlickr} className="text-[#8192a0] cursor-pointer" />
                     <FontAwesomeIcon icon={faXTwitter} className="text-[#8192a0] cursor-pointer" />
                 </div>
+
+                <ul className="flex items-center gap-4 ps-3">
+                    <li className="lg:text-md text-sm cursor-pointer">
+                        <i className="ri-lock-line pr-1 text-[#8192a0]"></i>
+                        <span>Sing Up</span>
+                    </li>
+
+                </ul>
+
             </div>
         </nav>
     );
