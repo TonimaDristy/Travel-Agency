@@ -80,6 +80,13 @@ export default function Nav() {
                     <li><Link href='/Contact' className="active font-[500] text-[#697e8a] hover:text-black transition-colors duration-500">Contact</Link></li>
 
                 </ul>
+                {/* Mobile Toggle*/}
+                <div className="flex justify-center items-center">
+                    <div
+                        className="toggle-btn lg:hidden cursor-pointer">
+
+                    </div>
+                </div>
 
 
             </div >
