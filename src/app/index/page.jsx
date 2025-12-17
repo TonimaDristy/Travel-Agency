@@ -20,7 +20,12 @@ export default function Index() {
                     <p className="pt-3 text-blue-300 md:pb-10 pb-5">
                         Discover Unbeatable Travel Deals Across the World.Luxury, Comfort, and Adventure—All in One Package
                     </p>
+                    <button className=" btn bg-blue-500 group text-amber-200 hover:bg-amber-700 font-bold px-6 w-auto py-4 rounded-full cursor-pointer transition-colors duration-300">
+                        <a href="#" className="unbounded-font text-sm xl:text-md uppercase group-hover:text-white tarnsition-colors duration-300">
+                            View All Tours
+                        </a>
 
+                    </button>
                 </div>
             </div>
         </>
