@@ -70,9 +70,12 @@ export default function Nav() {
                 {/*Desktop Menu */}
                 <ul className="nav-menu hidden lg:flex w-full justify-center items-center gap-14 py-5 relative">
                     <li><Link href='/' className="active font-[500] hover:text-black transition-colors duration-500">Home</Link></li>
+                    <li><Link href='/About' className="active font-[500] text-[#697e8a] hover:text-black transition-colors duration-500">About</Link></li>
+                    <li><Link href='/Tour' className="active font-[500] text-[#697e8a] hover:text-black transition-colors duration-500">Tour</Link></li>
                 </ul>
 
+
             </div>
-        </nav>
+        </nav >
     );
 }
