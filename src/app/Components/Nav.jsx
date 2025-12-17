@@ -1,7 +1,7 @@
 "use client";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faFlickr, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
 
@@ -46,6 +46,7 @@ export default function Nav() {
                     </li>
                     <li className="lg:text-md text-sm cursor-pointer">
                         <FontAwesomeIcon icon={faUser} className="text-[#8192a0] cursor-pointer" />
+                        <span>Sing Up</span>
                     </li>
 
                 </ul>

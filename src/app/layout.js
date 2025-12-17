@@ -32,8 +32,8 @@ export default function RootLayout({ children }) {
       <body className={`${sora.variable} ${unbounded.variable} antialiased`}>
 
 
+        <Nav></Nav>
 
-        <Nav />
         {children}
       </body>
     </html>
