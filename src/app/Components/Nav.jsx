@@ -57,8 +57,16 @@ export default function Nav() {
             <div className={`w-full px-[2%] sm:px-[8%] lg:px-[12%] 
             text-start lg:text-center relative flex justify-between lg:justify-center nav-menu-container
             transition-all duration-500 ease-in-out ${isScrolled ? "bg-amber-50" : "bg-transparent"}
-            `}
-            ></div>
+            `}>
+
+                {/*Logo For Mobile */}
+                <div className="lg:hidden flex logo text-2xl uppercase font-semibold">
+                    <a href="#" className="unbounded-font">Trip<span className="unbounded-font">Planner</span></a>
+                </div>
+
+
+
+            </div>
         </nav>
     );
 }
