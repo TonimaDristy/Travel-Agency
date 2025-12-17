@@ -103,10 +103,11 @@ export default function Nav() {
             
             `}>
                     <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
-                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
-                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
-                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
-                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">About</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">Tours</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">Faq's</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">Blog</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">Contact</a></li>
 
 
 
