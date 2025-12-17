@@ -98,7 +98,19 @@ export default function Nav() {
 
                 {/*MObile Menu Drowdown*/}
                 <ul className={`lg:hidden flex flex-col items-center gap-6 bg-[#f7f7f7] shadow-md absolute left-0 w-full
-            overflow-hidden transition-all-500 ease-in-out`}></ul>
+            overflow-hidden transition-all-500 ease-in-out
+            ${isOpen ? "max-h-[500px] top-full mt-3 opacity-100 py-6" : "max-h-0 opacity-0 py-0 top-full"}
+            
+            `}>
+                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
+                    <li><a href="#" className="font-[500] hover:text-black">Home</a></li>
+
+
+
+                </ul>
 
             </div >
         </nav >
