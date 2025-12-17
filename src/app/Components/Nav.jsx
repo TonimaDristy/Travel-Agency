@@ -75,6 +75,10 @@ export default function Nav() {
                     <div className="logo text-3xl uppercase font-semibold">
                         <Link href="/" className="unbounded-font">Trip<span className="unbounded-font">Planner</span></Link>
                     </div>
+                    <li><Link href='/Faq' className="active font-[500] text-[#697e8a] hover:text-black transition-colors duration-500">Faq</Link></li>
+                    <li><Link href='/Blog' className="active font-[500] text-[#697e8a] hover:text-black transition-colors duration-500">Blog</Link></li>
+                    <li><Link href='/Contact' className="active font-[500] text-[#697e8a] hover:text-black transition-colors duration-500">Contact</Link></li>
+
                 </ul>
 
 
