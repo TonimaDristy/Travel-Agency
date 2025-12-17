@@ -96,6 +96,9 @@ export default function Nav() {
                     </div>
                 </div>
 
+                {/*MObile Menu Drowdown*/}
+                <ul className={`lg:hidden flex flex-col items-center gap-6 bg-[#f7f7f7] shadow-md absolute left-0 w-full
+            overflow-hidden transition-all-500 ease-in-out`}></ul>
 
             </div >
         </nav >
