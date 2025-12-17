@@ -6,10 +6,13 @@ import { faFacebook, faFlickr, faXTwitter } from "@fortawesome/free-brands-svg-i
 import { useEffect, useState } from "react";
 
 import Link from "next/link";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function Nav() {
     const [isScrolled, setIsScrolled] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
+
 
     useEffect(() => {
         const handleScroll = () => setIsScrolled(window.scrollY > 80);
@@ -83,7 +86,12 @@ export default function Nav() {
                 {/* Mobile Toggle*/}
                 <div className="flex justify-center items-center">
                     <div
-                        className="toggle-btn lg:hidden cursor-pointer">
+                        className="toggle-btn lg:hidden cursor-pointer"
+                        onClick={() => setIsOpen(!isOpen)}
+                    >
+                        <FontAwesomeIcon
+                            icon={isOpen ? faTimes : faBars}
+                            className="text-[#193555] text-xl" />
 
                     </div>
                 </div>
