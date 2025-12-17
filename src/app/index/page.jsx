@@ -1,25 +1,33 @@
-"use client";
+"use client"
+
 
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLocationDot } from "@fortawesome/free-brands-svg-icons";
+
+import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Index() {
     return (
-        <div className="relative w-full h-screen bg-[url('/your-hero-bg.jpg')] bg-cover bg-center flex items-center justify-center">
-            {/* Centered content */}
-            <div className="text-center px-4">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white unbounded-font">
-                    Plan Your Dream <br /> Vacation Today
-                </h1>
-                <p className="mt-4 text-blue-300 max-w-xl mx-auto">
-                    Discover Unbeatable Travel Deals Across the World. Luxury, Comfort, and Adventure—All in One Package
-                </p>
-                <a
-                    href="#"
-                    className="mt-6 inline-block bg-blue-500 text-[#193555] hover:bg-amber-700 font-bold px-6 py-4 rounded-full transition-colors duration-300 uppercase text-sm md:text-md unbounded-font"
-                >
-                    View All Tours
-                </a>
+        <>
+            <div className="hero h-screen min-h-screen flex justify-items-center items-center z-10">
+                <div className="hero-content relative text-center">
+                    <h1 className="xl:text-8xl lg:text-7xl md:text-6xl text-4xl unbounded-font font-bold text-white">
+                        Plan Your Dream <br /> Vacation Today
+                    </h1>
+                    <p className="pt-3 text-blue-300 md:pb-10 pb-5 text-center max-w-xl mx-auto">
+                        Discover Unbeatable Travel Deals Across the World.Luxury, Comfort, and Adventure—All in One Package
+                    </p>
+                    <button className=" btn bg-blue-500 group text-[#193555] hover:bg-amber-700 font-bold px-6 w-auto py-4 rounded-full cursor-pointer transition-colors duration-300 text-center">
+                        <a href="#" className="unbounded-font text-sm xl:text-md uppercase group-hover:text-white tarnsition-colors duration-300">
+                            View All Tours
+                        </a>
+
+                    </button>
+                </div>
             </div>
-        </div>
-    );
-}
+        </>
+    )
+}              
