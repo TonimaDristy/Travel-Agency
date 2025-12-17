@@ -5,6 +5,9 @@ import { faPhone, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faFlickr, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useState } from "react";
 
+import Link from "next/link";
+
+
 export default function Nav() {
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -64,7 +67,10 @@ export default function Nav() {
                     <a href="#" className="unbounded-font">Trip<span className="unbounded-font">Planner</span></a>
                 </div>
 
-
+                {/*Desktop Menu */}
+                <ul className="nav-menu hidden lg:flex w-full justify-center items-center gap-14 py-5 relative">
+                    <li><Link href='/' className="active font-[500] hover:text-black transition-colors duration-500">Home</Link></li>
+                </ul>
 
             </div>
         </nav>
