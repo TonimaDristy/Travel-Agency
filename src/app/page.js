@@ -2,12 +2,19 @@ export default function Home() {
   return (
     <section className="hero flex items-center justify-center text-center">
       <div>
-        <p className="text-blue-300 mb-6">
+        <p className="text-white mb-6">
           Discover Unbeatable Travel Deals Across the World. Luxury, Comfort,
           and Adventure—All in One Package
         </p>
 
-        <button className="bg-blue-500 text-white px-8 py-4 rounded-full font-bold">
+
+        <div className="relative z-10 text-center px-4 max-w-3xl">
+          <h2 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white drop-shadow-2xl">
+            Plan Your Dream <br /> Vacation Today
+          </h2>
+        </div>
+
+        <button className="mt-8 bg-blue-500 text-white px-8 py-4 rounded-full font-bold  hover:bg-amber-800 font">
           VIEW ALL TOURS
         </button>
       </div>

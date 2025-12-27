@@ -14,9 +14,9 @@ export default function Index() {
 
             {/* Text content */}
             <div className="relative z-10 text-center px-4 max-w-3xl">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white drop-shadow-2xl">
+                <h2 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white drop-shadow-2xl">
                     Plan Your Dream <br /> Vacation Today
-                </h1>
+                </h2>
 
                 <p className="mt-4 text-white text-lg md:text-xl drop-shadow-md">
                     Discover Unbeatable Travel Deals Across the World. Luxury, Comfort, and Adventure—All in One Package
@@ -24,7 +24,7 @@ export default function Index() {
 
                 <a
                     href="#"
-                    className="mt-6 inline-block bg-blue-500 text-[#193555] hover:bg-amber-700 font-bold px-6 py-4 rounded-full transition-colors duration-300 uppercase text-sm md:text-md"
+                    className="mt-6 inline-block bg-blue-500 text-[#193555] hover:bg-amber-900 font-bold px-6 py-4 rounded-full transition-colors duration-300 uppercase text-sm md:text-md"
                 >
                     View All Tours
                 </a>
