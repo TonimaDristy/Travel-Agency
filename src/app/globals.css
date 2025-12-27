@@ -52,13 +52,16 @@
   height: 0;
 }
 
-/*Hero*/
+
 .hero {
   height: 100vh;
-  background: url('/images/hero-image.jpg');
-
+  background-image: url("/assets/hero-image.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
+  background-size: cover;
   position: relative;
+}
 
+.hero {
+  border: 10px solid red;
 }
