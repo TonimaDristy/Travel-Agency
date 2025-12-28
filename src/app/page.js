@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <section className="hero flex items-center justify-center text-center">
@@ -14,9 +15,15 @@ export default function Home() {
           </h2>
         </div>
 
-        <button className="mt-8 bg-blue-500 text-white px-8 py-4 rounded-full font-bold  hover:bg-amber-800 font">
+
+
+        <Link
+          href="/Tour"
+          className="mt-8 inline-block bg-blue-500 text-white px-8 py-4 rounded-full font-bold hover:bg-amber-800 transition"
+        >
           VIEW ALL TOURS
-        </button>
+        </Link>
+
       </div>
     </section>
   );

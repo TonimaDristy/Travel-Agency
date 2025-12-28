@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 export default function Index() {
     return (
         <div className="relative w-full h-screen flex items-center justify-center">
@@ -24,12 +26,12 @@ export default function Index() {
                     Discover Unbeatable Travel Deals Across the World. Luxury, Comfort, and Adventure—All in One Package
                 </p>
 
-                <a
-                    href="#"
+                <Link
+                    href="/Tour" // <-- Route to your TourPage
                     className="mt-8 inline-block bg-blue-500 text-[#193555] hover:bg-amber-800 font-bold px-6 py-4 rounded-full transition-colors duration-300 uppercase text-sm md:text-md"
                 >
                     View All Tours
-                </a>
+                </Link>
             </div>
         </div>
     );
