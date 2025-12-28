@@ -54,12 +54,19 @@ export default function Nav() {
 
                 {/* Login / Signup */}
                 <ul className="flex items-center gap-4 pl-4">
-                    <li className="text-sm cursor-pointer">Login</li>
-                    <li className="text-sm cursor-pointer flex items-center gap-1">
+                    <li className="text-sm">
+                        <Link href="/Login" className="cursor-pointer hover:text-blue-600">
+                            Login
+                        </Link>
+                    </li>
+                    <li className="text-sm flex items-center gap-1">
                         <FontAwesomeIcon icon={faUser} className="text-[#8192a0]" />
-                        Sign Up
+                        <Link href="/Signup" className="cursor-pointer hover:text-blue-600">
+                            Sign Up
+                        </Link>
                     </li>
                 </ul>
+
             </div>
 
             {/* Main Navigation */}
