@@ -2,7 +2,8 @@ import Image from "next/image";
 
 export default function AboutPage() {
     return (
-        <main className="bg-white text-gray-800">
+        <main className="bg-[#FAF7F2] text-gray-800">
+
             {/* Hero Section */}
             <section className="relative h-[60vh] flex items-center justify-center">
                 <Image
