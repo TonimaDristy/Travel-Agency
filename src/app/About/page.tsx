@@ -7,7 +7,7 @@ export default function AboutPage() {
             {/* Hero Section */}
             <section className="relative h-[60vh] flex items-center justify-center">
                 <Image
-                    src="/assets/section-banner.jpg"
+                    src="/assets/section.jpg"
                     alt="About Trip Planner"
                     fill
                     className="object-cover"
