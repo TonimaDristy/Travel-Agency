@@ -34,14 +34,14 @@ export default function ContactPage() {
                     <div className="bg-white p-8 rounded-2xl shadow text-center">
                         <h3 className="text-xl font-semibold mb-2">📞 Phone</h3>
                         <p className="text-gray-600">
-                            +880 1234 567 890
+                            +880 1234 567
                         </p>
                     </div>
 
                     <div className="bg-white p-8 rounded-2xl shadow text-center">
                         <h3 className="text-xl font-semibold mb-2">✉ Email</h3>
                         <p className="text-gray-600">
-                            support@trip-planner.com
+                            supportteam@trip-planner.com
                         </p>
                     </div>
                 </div>
