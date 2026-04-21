@@ -1,9 +1,4 @@
  # 🌏 Trip Planner – Travel Agency Web App
-<h2 align="left">📸 Demo</h2>
-
-<p align="center">
-  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/21cf4f85-5330-4d09-9381-a1ad8057cd3a.jpg" width="600"/>
-</p>
 
 🚀 A modern travel booking platform built with **React, Next.js, and Tailwind CSS**, designed to provide a smooth and interactive trip planning experience.
 
@@ -11,8 +6,6 @@
 ---
 ## ✨ Overview
 Trip Planner is a responsive travel agency web application that allows users to explore tours, view destinations, and interact with a clean booking-style UI.
-
-This project focuses on **frontend development, UI/UX design, and Next.js routing structure**.
 
 ---
 
@@ -22,20 +15,36 @@ This project focuses on **frontend development, UI/UX design, and Next.js routin
 - Interactive landing page with strong CTA (Call to Action)
 - Engaging hero section for travel discovery
 
+  <p align="center">
+  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro).png" width="500"/>
+</p>
+
 ### ✈️ Tours Page
 - Displays destinations with:
   - Duration
   - Pricing
   - Travel highlights
+ 
+    <p align="center">
+  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(1).png" width="500"/>
+</p>
 
 ### 📖 About Page
 - Company mission and vision
 - Key statistics
 - Reasons to choose the service
 
+     <p align="center">
+  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(2).png" width="500"/>
+</p>
+
 ### 📞 Contact Page
 - Informational contact cards
 - Functional contact form UI
+
+ <p align="center">
+  <img src="https://github.com/TonimaDristy/Travel-Agency/blob/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(3).png" width="500"/>
+</p>
 
 ### 🔐 Authentication UI
 - Login & Signup pages
@@ -67,8 +76,6 @@ This project helped me improve:
 - Clean and reusable component structure
 
 ---
-
-## 🎯 Goal
-To build a **modern, responsive travel website UI** that demonstrates strong frontend development and design skills.
+This project focuses on **frontend development, UI/UX design, and Next.js routing structure**.
 
 ---
