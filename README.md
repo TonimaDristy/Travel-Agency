@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # 🌏 Trip Planner – Travel Agency Web App
 
-## Getting Started
+<h2 align="left">📸 Demo</h2>
+<p align="center">
+  <img src="<img src="https://github.com/TonimaDristy/Full-Stack/raw/main/Screenshot%202026-04-21%20190453.png" width="30%" />
+" width="700"/>
+</p>
 
-First, run the development server:
+🚀 A modern travel booking platform built with **React, Next.js, and Tailwind CSS**, designed to provide a smooth and interactive trip planning experience.
+[Live Demo](https://tripplanner-44da7c.netlify.app/) 
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Overview
+Trip Planner is a responsive travel agency web application that allows users to explore tours, view destinations, and interact with a clean booking-style UI.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project focuses on **frontend development, UI/UX design, and Next.js routing structure**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌟 Key Features
 
-## Learn More
+### 🏠 Home Page
+- Interactive landing page with strong CTA (Call to Action)
+- Engaging hero section for travel discovery
 
-To learn more about Next.js, take a look at the following resources:
+### ✈️ Tours Page
+- Displays destinations with:
+  - Duration
+  - Pricing
+  - Travel highlights
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📖 About Page
+- Company mission and vision
+- Key statistics
+- Reasons to choose the service
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 📞 Contact Page
+- Informational contact cards
+- Functional contact form UI
 
-## Deploy on Vercel
+### 🔐 Authentication UI
+- Login & Signup pages
+- Clean and responsive design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📱 Responsive Design
+- Fully mobile-friendly layout
+- Optimized for desktop, tablet, and mobile devices
+- Smooth UI scaling using Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+- React.js  
+- Next.js (Routing & SSR)  
+- Tailwind CSS  
+- JavaScript (ES6+)  
+
+---
+
+## 💡 What I Learned
+This project helped me improve:
+- Next.js routing system
+- Component-based architecture
+- Responsive UI design with Tailwind CSS
+- Building real-world frontend layouts
+- Clean and reusable component structure
+
+---
+
+## 🎯 Goal
+To build a **modern, responsive travel website UI** that demonstrates strong frontend development and design skills.
+
+---
