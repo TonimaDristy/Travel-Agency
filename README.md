@@ -1,15 +1,14 @@
  # 🌏 Trip Planner – Travel Agency Web App
-
 <h2 align="left">📸 Demo</h2>
+
 <p align="center">
-  <img src="<img src="https://github.com/TonimaDristy/Full-Stack/raw/main/Screenshot%202026-04-21%20190453.png" width="30%" />
-" width="700"/>
+  <img src="https://github.com/TonimaDristy/Full-Stack/raw/main/Screenshot%202026-04-21%20190453.png" width="600"/>
 </p>
 
 🚀 A modern travel booking platform built with **React, Next.js, and Tailwind CSS**, designed to provide a smooth and interactive trip planning experience.
-[Live Demo](https://tripplanner-44da7c.netlify.app/) 
----
 
+🔗 [Live Demo](https://tripplanner-44da7c.netlify.app/)
+---
 ## ✨ Overview
 Trip Planner is a responsive travel agency web application that allows users to explore tours, view destinations, and interact with a clean booking-style UI.
 
