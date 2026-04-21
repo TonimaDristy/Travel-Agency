@@ -16,7 +16,7 @@ Trip Planner is a responsive travel agency web application that allows users to 
 - Engaging hero section for travel discovery
 
   <p align="center">
-  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro).png" width="500"/>
+  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro).png" width="300"/>
 </p>
 
 ### ✈️ Tours Page
@@ -26,7 +26,7 @@ Trip Planner is a responsive travel agency web application that allows users to 
   - Travel highlights
  
   <p align="center">
-  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(2).png" width="500"/>
+  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(2).png" width="300"/>
 </p>
 
 ### 📖 About Page
@@ -35,7 +35,7 @@ Trip Planner is a responsive travel agency web application that allows users to 
 - Reasons to choose the service
 
 <p align="center">
- <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(1).png" width="500"/>
+ <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(1).png" width="300"/>
 </p>
 
 
@@ -44,7 +44,7 @@ Trip Planner is a responsive travel agency web application that allows users to 
 - Functional contact form UI
 
  <p align="center">
-  <img src="https://github.com/TonimaDristy/Travel-Agency/blob/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(3).png" width="500"/>
+  <img src="https://github.com/TonimaDristy/Travel-Agency/blob/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(3).png" width="300"/>
 </p>
 
 ### 🔐 Authentication UI
