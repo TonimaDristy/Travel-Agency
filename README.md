@@ -25,8 +25,8 @@ Trip Planner is a responsive travel agency web application that allows users to 
   - Pricing
   - Travel highlights
  
-    <p align="center">
-  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(1).png" width="500"/>
+ <p align="center">
+ <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(1).png" width="500"/>
 </p>
 
 ### 📖 About Page
