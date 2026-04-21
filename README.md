@@ -25,7 +25,7 @@ Trip Planner is a responsive travel agency web application that allows users to 
   - Pricing
   - Travel highlights
  
-     <p align="center">
+  <p align="center">
   <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(2).png" width="500"/>
 </p>
 
@@ -34,7 +34,7 @@ Trip Planner is a responsive travel agency web application that allows users to 
 - Key statistics
 - Reasons to choose the service
 
-  <p align="center">
+<p align="center">
  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/tripplanner-44da7c.netlify.app_(iPad%20Pro)%20(1).png" width="500"/>
 </p>
 
