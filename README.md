@@ -2,7 +2,7 @@
 <h2 align="left">📸 Demo</h2>
 
 <p align="center">
-  <img src="https://github.com/TonimaDristy/Full-Stack/raw/main/Screenshot%202026-04-21%20190453.png" width="600"/>
+  <img src="https://github.com/TonimaDristy/Travel-Agency/raw/main/21cf4f85-5330-4d09-9381-a1ad8057cd3a.jpg" width="600"/>
 </p>
 
 🚀 A modern travel booking platform built with **React, Next.js, and Tailwind CSS**, designed to provide a smooth and interactive trip planning experience.
